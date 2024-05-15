@@ -5,7 +5,7 @@ on:
 
 jobs:
   acao_inicial_job:
-    rwns-on: windows-latest
+    runs-on: windows-latest
     steps: 
       - name: Imprime OLA
         run: echo "OLA"
