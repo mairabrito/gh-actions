@@ -1,0 +1,14 @@
+name: Exemplo de um fluxo de Trabalho
+
+on:
+  workflow_dispatch:
+
+jobs:
+  acao_inicial_job:
+    rwns-on: windows-latest
+    steps: 
+      - name: Imprime OLA
+        run: echo "OLA"
+      - name: Imprime TCHAU
+        run: echo "Tchau"
+
